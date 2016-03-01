@@ -1,0 +1,49 @@
+﻿L’IUT d’Elbeuf a accueilli ce mardi 1er février la Journée des Métiers au sein de son département Métiers du Multimédia et de l’Internet. Au terme de cette journée, les étudiants ont pu découvrir les métiers qu’ils pourront faire après leurs deux années de DUT. Des intermittents ont présenté leurs professions, et ont proposé des ateliers pour faire découvrir leurs domaines et leur manière de travailler. 
+
+
+WEB
+Les étudiants doivent réaliser une application, en 3 heures,  qui présente la journée des métiers. Pour ce faire, ils ont du se mettre par groupe et réaliser chacun une partie du projet. Cette application sera diffusée sur l’écran de la cafétéria. 
+AUDIOVISUEL
+Les étudiants doivent réaliser, par groupe de quatre, un court métrage d’une durée finale d’environ une minute en cinq plans maximum. Ils ont du choisir entre une fiction, un reportage ou un making off. 
+
+
+PHOTOGRAPHIE
+Les étudiants présents dans l’atelier photographie ont eu le droit à beaucoup de liberté. Munis de leurs appareils photo, ils ont comme but de prendre des photographies par groupe de quatre sur des thèmes tels que l’abstrait. 
+
+
+
+
+INFOGRAPHIE
+En infographie les étudiants avaient le choix entre 2 sujets, soit créer un logo et un affiche pour nwx summer festival ou créer une identité visuelle et une maquette de site internet pour les boucles de seine architecture. 
+
+
+Nicholas “C’est sympa car ce sont de vrais sujets et les intervenants donnent de bons conseils” 
+Emeline : “Les activités permettent de 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Pour les titre (H1,H2,H3,H4,…)  : 
+-          Raleway BOLD
+-          Taille : 40pt
+-          approche (séparation des lettres ) : 50
+ 
+Pour le contenu :
+-          Montserra REGULAR
+-          Taille : 12pt
+-          Interligne : 20pt
+ 
+Les citations :
+-          Raleway LIGHT
+-          Taille : 16pt
