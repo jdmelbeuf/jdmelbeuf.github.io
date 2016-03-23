@@ -1,4 +1,4 @@
-@import url(libs/normalize.css);
+@import url(libs/html5reset-1.6.1.css);
 
 body {
 	font: 112.5%/1.5em Georgia, serif;
@@ -8,6 +8,25 @@ img {
 	max-width: 100%;
 }
 
+p, figure {
+	margin-bottom: 1.5em;
+}
+
+/** Titrage **/
+h1 {
+	font-size: 4em;
+	margin-bottom: .2em;
+	line-height: 1.2em;
+}
+
+h2
+{
+	font-size: 3em;
+	margin-bottom: .2em;
+	line-height: 1.2em;
+}
+
+/** Structure **/
 main {
 	padding: 1.5em;
 }
