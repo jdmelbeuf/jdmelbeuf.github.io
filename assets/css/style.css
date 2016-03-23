@@ -1,1 +1,9 @@
 @import url(libs/normalize.css);
+
+body {
+	font: 112.5%/1.5em Georgia, serif;
+}
+
+main {
+	padding: 1.5em;
+}
