@@ -28,13 +28,12 @@ h2
 
 /** Structure **/
 main {
-	padding: 1.5em;
 }
 
 /** Carrousel **/
 body{
 	overflow: hidden;
-	width: 100%
+	width: 100%;
 }
 main {
 	width: 100%;
@@ -49,7 +48,11 @@ main {
 
 main > article
 {
-	position: relative;
+	border: 1.5em solid #FFF;
+	box-sizing: border-box;
+	overflow: hidden;
+	min-height: 100vh;
+	max-height: 100vh;
 	float: left;
 	width: 25%; /* 100 / nombre de panneaux **/
 }
