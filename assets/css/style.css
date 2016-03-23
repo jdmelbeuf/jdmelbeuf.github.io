@@ -38,15 +38,15 @@ body{
 main {
 	width: 100%;
 	position: relative;
-	width: 400%; /* nombre de panneaux * 100% */
+	width: 800%; /* nombre de panneaux * 100% */
 	overflow: hidden;
 
-	-moz-animation:carousel 30s infinite;
-	-webkit-animation:carousel 30s infinite;
-	animation:carousel 30s infinite;
+	-moz-animation:carousel 60s infinite;
+	-webkit-animation:carousel 60s infinite;
+	animation:carousel 60s infinite;
 }
 
-main > article
+.pane
 {
 	border: 1.5em solid #FFF;
 	box-sizing: border-box;
@@ -54,18 +54,32 @@ main > article
 	min-height: 100vh;
 	max-height: 100vh;
 	float: left;
-	width: 25%; /* 100 / nombre de panneaux **/
+	width: 12.5%; /* 100 / nombre de panneaux **/
+}
+
+.pane p {
+	font-size: 3em;
+	line-height: 1.5em;
+	font-style: italic;	
 }
 
 /* Réglage de l'animation */
 @keyframes carousel{
 	0%		{ left:0; }
-	20%		{ left:0; }
-	25%		{ left:-100%; }
-	45%		{ left:-100%; }
-	50%		{ left:-200%; }
-	70%		{ left:-200%; }
-	75%		{ left:-300%; }
-	95%		{ left:-300%; }
+	10%		{ left:0; }
+	12%		{ left:-100%; }
+	20%		{ left:-100%; }
+	22%		{ left:-200%; }
+	30%		{ left:-200%; }
+	32%		{ left:-300%; }
+	40%		{ left:-300%; }
+	42%		{ left:-400%; }
+	50%		{ left:-400%; }
+	52%		{ left:-500%; }
+	60%		{ left:-500%; }
+	62%		{ left:-600%; }
+	70%		{ left:-600%; }
+	72%		{ left:-700%; }
+	80%		{ left:-700%; }
 	100%	{ left:0; }
 }
