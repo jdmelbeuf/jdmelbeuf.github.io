@@ -4,6 +4,10 @@ body {
 	font: 112.5%/1.5em Georgia, serif;
 }
 
+img {
+	max-width: 100%;
+}
+
 main {
 	padding: 1.5em;
 }
