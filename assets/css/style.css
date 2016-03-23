@@ -39,7 +39,7 @@ body{
 main {
 	width: 100%;
 	position: relative;
-	width: 800%; /* nombre de panneaux * 100% */
+	width: 1000%; /* nombre de panneaux * 100% */
 	overflow: hidden;
 
 	-moz-animation:carousel 60s infinite;
@@ -55,7 +55,7 @@ main {
 	min-height: 100vh;
 	max-height: 100vh;
 	float: left;
-	width: 12.5%; /* 100 / nombre de panneaux **/
+	width: 10%; /* 100 / nombre de panneaux **/
 }
 
 .pane p {
@@ -94,5 +94,9 @@ main {
 	70%		{ left:-600%; }
 	72%		{ left:-700%; }
 	80%		{ left:-700%; }
+	82%		{ left:-800%; }
+	90%		{ left:-800%; }
+	92%		{ left:-900%; }
+	95%		{ left:-900%; }
 	100%	{ left:0; }
 }
