@@ -30,3 +30,39 @@ h2
 main {
 	padding: 1.5em;
 }
+
+/** Carrousel **/
+body{
+	overflow: hidden;
+	width: 100%
+}
+main {
+	width: 100%;
+	position: relative;
+	width: 400%; /* nombre de panneaux * 100% */
+	overflow: hidden;
+
+	-moz-animation:carousel 30s infinite;
+	-webkit-animation:carousel 30s infinite;
+	animation:carousel 30s infinite;
+}
+
+main > article
+{
+	position: relative;
+	float: left;
+	width: 25%; /* 100 / nombre de panneaux **/
+}
+
+/* Réglage de l'animation */
+@keyframes carousel{
+	0%		{ left:0; }
+	20%		{ left:0; }
+	25%		{ left:-100%; }
+	45%		{ left:-100%; }
+	50%		{ left:-200%; }
+	70%		{ left:-200%; }
+	75%		{ left:-300%; }
+	95%		{ left:-300%; }
+	100%	{ left:0; }
+}
